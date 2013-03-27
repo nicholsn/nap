@@ -142,7 +142,7 @@ def nap():
 			with cd('nap'):
 				run('git pull --rebase')
 		else:
-			run('git clone git@github.com:INCF/nap.git')				
+			run('git clone git@github.com:ni-/nap.git')				
 			run('git config --global user.name "richstoner"')
 			run('git config --global user.email "stonerri@gmail.com"')
 

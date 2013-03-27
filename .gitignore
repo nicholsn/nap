@@ -5,3 +5,4 @@ id_rsa*
 *.pial
 *.vtk
 *.tmp
+s3cfg
