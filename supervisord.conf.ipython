@@ -21,6 +21,6 @@ serverurl=unix:///tmp/supervisor.sock         ; use a unix:// URL  for a unix so
 
 [program:ipython-80]
 directory=/home/ubuntu
-command=/usr/local/bin/ipython notebook --notebook-dir=/home/ubuntu/ipynb --ipython-dir=/home/ubuntu/.ipython --profile=nbserver
+command=/usr/local/bin/ipython notebook --notebook-dir=/home/ubuntu/nap --ipython-dir=/home/ubuntu/.ipython --profile=nbserver
 stderr_logfile = /tmp/ipython-stderr.log
 stdout_logfile = /tmp/ipython-stdout.log
